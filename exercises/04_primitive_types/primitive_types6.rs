@@ -4,8 +4,6 @@ fn main() {
 
 #[cfg(test)]
 mod tests {
-    use core::num;
-
     #[test]
     fn indexing_tuple() {
         let numbers = (1, 2, 3);
